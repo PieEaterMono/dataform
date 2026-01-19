@@ -1,0 +1,9 @@
+config {
+    type: "table",
+    dataset: "testingaccount-484801",
+    schema: "dataform",
+    name: "first_model"
+}
+
+SELECT "dataform" as name, "GCP" as platform
+
