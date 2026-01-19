@@ -1,0 +1,8 @@
+config {
+  type: "view",
+  schema: "dataform",
+  name: "v_drinks"
+}
+
+select *
+from ${ref("drinks")}
